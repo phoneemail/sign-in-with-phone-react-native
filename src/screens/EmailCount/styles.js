@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     flex: STANDARD_FLEX,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#fff',
+    backgroundColor: '#ffffff',
   },
   contentWrapper: {
     width: '95%',
