@@ -12,12 +12,11 @@ const SignIn = ({navigation}) => {
   const userInfo = {
     iss: 'phmail',
     aud: 'user',
-    country_code: '+**',
-    phone_no: '**********',
+    client_id : '********************'
   };
 
   // Declaring sign-in URL
-  const URI = `https://auth.phone.email/sign-in?countrycode=${userInfo.country_code}&phone_no=${userInfo.phone_no}&redirect_url=https://dashing-concha-578106.netlify.app/success&auth_type=4&device=${deviceId}`;
+  const URI = `https://auth.phone.email/log-in?client_id=${userInfo.client_id}&auth_type=4&device=${deviceId}`;
 
   // Hooks
   useEffect(() => {
